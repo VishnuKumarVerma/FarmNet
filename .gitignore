@@ -1,0 +1,40 @@
+
+## .gitignore File
+
+# IDE and build files
+.idea/
+.settings/
+*.iml
+*.class
+*.jar
+*.war
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build directories
+build/
+
+# Sensitive files
+src/util/DatabaseConnection.java
+.env
+*.properties
+
+# Node.js dependencies (if applicable)
+node_modules/
+
+# Maven and Gradle
+*.mvn/
+*.gradle
+.gradle/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Others
+*.swp
